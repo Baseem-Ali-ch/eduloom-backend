@@ -1,0 +1,11 @@
+2025-04-05T12:24:01.107Z [error]: Controller : Error during registration Cannot read properties of undefined (reading 'email') - TypeError: Cannot read properties of undefined (reading 'email')
+    at new RegisterDTO (C:\Users\HP\Desktop\EduLoom-Server\src\dtos\dto.ts:9:23)
+    at AuthController.register (C:\Users\HP\Desktop\EduLoom-Server\src\controllers\student\auth.controller.ts:21:19)
+    at C:\Users\HP\Desktop\EduLoom-Server\src\routes\user.route.ts:48:59
+    at Layer.handleRequest (C:\Users\HP\Desktop\EduLoom-Server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\HP\Desktop\EduLoom-Server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\HP\Desktop\EduLoom-Server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\HP\Desktop\EduLoom-Server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\HP\Desktop\EduLoom-Server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\HP\Desktop\EduLoom-Server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\HP\Desktop\EduLoom-Server\node_modules\router\index.js:582:12)

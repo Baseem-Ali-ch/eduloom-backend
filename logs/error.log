@@ -1,0 +1,130 @@
+2025-02-11T03:21:02.198Z [error]: Controller : Error during login Invalid credentials - Error: Invalid credentials
+    at AuthService.login (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\services\student\auth.services.ts:99:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\controllers\student\auth.controller.ts:58:22)
+2025-02-11T03:21:55.503Z [error]: Controller : Error during login Invalid credentials - Error: Invalid credentials
+    at AuthService.login (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\services\student\auth.services.ts:109:13)
+    at async AuthController.login (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\controllers\student\auth.controller.ts:58:22)
+2025-02-12T05:51:47.065Z [error]: Controller : Error send instructor request Instructor validation failed: place: Path `place` is required. - ValidationError: Instructor validation failed: place: Path `place` is required.
+    at model.Document.invalidate (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\node_modules\mongoose\lib\schemaType.js:1407:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+2025-02-12T11:24:01.432Z [error]: Controller : Error during login secretOrPrivateKey must have a value - Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\node_modules\jsonwebtoken\sign.js:111:20)
+    at AuthService.login (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\services\student\auth.services.ts:113:30)
+    at async AuthController.login (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\controllers\student\auth.controller.ts:58:22)
+2025-02-17T09:08:04.031Z [error]: Controller : Error Invalid Credentials Invalid credentials - Error: Invalid credentials
+    at InstructorAuthService.login (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\services\instructor\auth.services.ts:60:13)
+    at async InstructorAuthController.login (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\controllers\instructor\auth.controller.ts:29:22)
+2025-02-17T09:12:15.580Z [error]: Controller : Error Invalid Credentials User is not active - Error: User is not active
+    at InstructorAuthService.login (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\services\instructor\auth.services.ts:54:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async InstructorAuthController.login (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\controllers\instructor\auth.controller.ts:29:22)
+2025-02-17T09:16:04.217Z [error]: Controller : Error Invalid Credentials instructor is not active - Error: instructor is not active
+    at InstructorAuthService.login (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\services\instructor\auth.services.ts:54:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async InstructorAuthController.login (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\controllers\instructor\auth.controller.ts:29:22)
+2025-02-17T09:17:58.764Z [error]: Controller : Error Invalid Credentials instructor is not active - Error: instructor is not active
+    at InstructorAuthService.login (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\services\instructor\auth.services.ts:54:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async InstructorAuthController.login (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\controllers\instructor\auth.controller.ts:29:22)
+2025-02-18T06:55:43.156Z [error]: Controller: refreshing tokens Token expired - Error: Token expired
+    at SharedController.handleRefreshToken (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\controllers\shared\shared.controller.ts:18:15)
+    at C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\routes\shared.router.ts:20:68
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Desktop\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\HP\Desktop\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\HP\Desktop\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\HP\Desktop\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\HP\Desktop\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\HP\Desktop\node_modules\express\lib\router\index.js:175:3)
+2025-02-18T06:58:10.836Z [error]: Controller: refreshing tokens Token expired - Error: Token expired
+    at SharedController.handleRefreshToken (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\controllers\shared\shared.controller.ts:18:15)
+    at C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\routes\shared.router.ts:20:68
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Desktop\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\HP\Desktop\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\HP\Desktop\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\HP\Desktop\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\HP\Desktop\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\HP\Desktop\node_modules\express\lib\router\index.js:175:3)
+2025-02-18T07:21:51.484Z [error]: Controller: refreshing tokens Token expired - Error: Token expired
+    at SharedController.handleRefreshToken (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\controllers\shared\shared.controller.ts:19:15)
+    at C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\routes\shared.router.ts:20:68
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Desktop\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\HP\Desktop\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\HP\Desktop\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\HP\Desktop\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\HP\Desktop\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\HP\Desktop\node_modules\express\lib\router\index.js:175:3)
+2025-02-18T07:40:09.408Z [error]: Middleware : Error invalid token jwt expired - TokenExpiredError: jwt expired
+    at C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyToken (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\middlewares\auth.middleware.ts:14:25)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Desktop\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\HP\Desktop\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\HP\Desktop\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\HP\Desktop\node_modules\express\lib\router\index.js:346:12)
+2025-02-18T13:20:50.213Z [error]: Controller: refreshing tokens Token expired - Error: Token expired
+    at SharedController.handleRefreshToken (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\controllers\shared\shared.controller.ts:19:15)
+    at C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\routes\shared.router.ts:20:68
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Desktop\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\HP\Desktop\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\HP\Desktop\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\HP\Desktop\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\HP\Desktop\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\HP\Desktop\node_modules\express\lib\router\index.js:175:3)
+2025-02-18T13:44:31.041Z [error]: Controller: refreshing tokens Token expired - Error: Token expired
+    at SharedController.handleRefreshToken (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\controllers\shared\shared.controller.ts:19:15)
+    at C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\routes\shared.router.ts:20:68
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Desktop\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\HP\Desktop\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\HP\Desktop\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\HP\Desktop\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\HP\Desktop\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\HP\Desktop\node_modules\express\lib\router\index.js:175:3)
+2025-02-18T13:45:14.075Z [error]: Controller: refreshing tokens secret or public key must be provided - JsonWebTokenError: secret or public key must be provided
+    at C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\node_modules\jsonwebtoken\verify.js:113:19
+    at getSecret (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\node_modules\jsonwebtoken\verify.js:101:10)
+    at SharedService.refreshAccessToken (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\services\shared\shared.services.ts:13:25)
+    at SharedController.handleRefreshToken (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\controllers\shared\shared.controller.ts:22:56)
+    at C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\routes\shared.router.ts:20:68
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Desktop\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\HP\Desktop\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\node_modules\express\lib\router\layer.js:95:5)
+2025-02-18T13:50:52.616Z [error]: Controller: refreshing tokens secret or public key must be provided - JsonWebTokenError: secret or public key must be provided
+    at C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\node_modules\jsonwebtoken\verify.js:113:19
+    at getSecret (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\node_modules\jsonwebtoken\verify.js:101:10)
+    at SharedService.refreshAccessToken (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\services\shared\shared.services.ts:13:25)
+    at SharedController.handleRefreshToken (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\controllers\shared\shared.controller.ts:22:56)
+    at C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\routes\shared.router.ts:20:68
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Desktop\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\HP\Desktop\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\node_modules\express\lib\router\layer.js:95:5)
+2025-02-18T13:52:46.864Z [error]: Controller: refreshing tokens secret or public key must be provided - JsonWebTokenError: secret or public key must be provided
+    at C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\node_modules\jsonwebtoken\verify.js:113:19
+    at getSecret (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\node_modules\jsonwebtoken\verify.js:101:10)
+    at SharedService.refreshAccessToken (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\services\shared\shared.services.ts:13:25)
+    at SharedController.handleRefreshToken (C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\controllers\shared\shared.controller.ts:22:56)
+    at C:\Users\HP\Desktop\Week Task\Week 22\EduLoom-Server\src\routes\shared.router.ts:20:68
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Desktop\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\HP\Desktop\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\node_modules\express\lib\router\layer.js:95:5)

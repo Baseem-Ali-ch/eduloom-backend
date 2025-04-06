@@ -1,0 +1,19 @@
+2025-04-06T01:06:03.444Z [error]: Controller : Error during logout Cannot read properties of null (reading 'exp') - TypeError: Cannot read properties of null (reading 'exp')
+    at AuthController.logout (C:\Users\HP\Desktop\EduLoom-Server\src\controllers\student\auth.controller.ts:135:33)
+    at C:\Users\HP\Desktop\EduLoom-Server\src\routes\user.route.ts:55:57
+    at Layer.handleRequest (C:\Users\HP\Desktop\EduLoom-Server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\HP\Desktop\EduLoom-Server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\HP\Desktop\EduLoom-Server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\HP\Desktop\EduLoom-Server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\HP\Desktop\EduLoom-Server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\HP\Desktop\EduLoom-Server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\HP\Desktop\EduLoom-Server\node_modules\router\index.js:582:12)
+    at next (C:\Users\HP\Desktop\EduLoom-Server\node_modules\router\index.js:291:5)
+2025-04-06T01:06:53.569Z [error]: Controller : Error during registration User already exists - Error: User already exists
+    at AuthService.register (C:\Users\HP\Desktop\EduLoom-Server\src\services\student\auth.services.ts:26:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.register (C:\Users\HP\Desktop\EduLoom-Server\src\controllers\student\auth.controller.ts:23:22)
+2025-04-06T01:07:30.250Z [error]: Controller : Error during registration User already exists - Error: User already exists
+    at AuthService.register (C:\Users\HP\Desktop\EduLoom-Server\src\services\student\auth.services.ts:26:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.register (C:\Users\HP\Desktop\EduLoom-Server\src\controllers\student\auth.controller.ts:23:22)
