@@ -34,7 +34,7 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
 app.use(
   cors({
-    origin: true,
+    origin: ['https://eduloom.fun', 'https://www.eduloom.fun'],
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
 
