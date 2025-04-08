@@ -9,7 +9,7 @@ export class EmailService implements IEmailService {
       service: 'gmail',
       host: process.env.SMTP_HOST || 'smtp.gmail.com',
       port: parseInt(process.env.SMTP_PORT || '587'),
-      secure: process.env.SMTP_PORT === '465', // Use SSL for 465, TLS for 587
+      secure: process.env.SMTP_PORT === '465',
       auth: {
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASSWORD,
@@ -43,7 +43,7 @@ export class EmailService implements IEmailService {
       await Promise.race([
         mailPromise,
         new Promise((_, reject) =>
-          setTimeout(() => reject(new Error('Email send timed out after 10s')), 10000)
+          setTimeout(() => reject(new Error('Email send timed out after 30s')), 30000)
         ),
       ]);
       console.log(`OTP email sent successfully to ${email}`);
