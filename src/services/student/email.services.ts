@@ -6,7 +6,6 @@ export class EmailService implements IEmailService {
 
   constructor() {
     this._transporter = nodemailer.createTransport({
-      service: 'gmail',
       host: 'smtp.gmail.com',
       port: 587,
       secure: false,
@@ -14,6 +13,13 @@ export class EmailService implements IEmailService {
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASSWORD,
       },
+      tls: {
+        rejectUnauthorized: false, // Less strict about certificates
+      },
+      // Increased timeouts
+      connectionTimeout: 30000, // 30 seconds
+      greetingTimeout: 30000,
+      socketTimeout: 60000
     });
   }
 
