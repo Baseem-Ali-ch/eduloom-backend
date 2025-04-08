@@ -42,7 +42,7 @@ export class EmailService implements IEmailService {
       await Promise.race([
         mailPromise,
         new Promise((_, reject) =>
-          setTimeout(() => reject(new Error('Email send timed out after 30s')), 60000)
+          setTimeout(() => reject(new Error('Email send timed out after 3m')), 300000)
         ),
       ]);
       console.log(`OTP email sent successfully to ${email}`);
