@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 const revenueSchema = new mongoose.Schema({
-  enrollment: { type: mongoose.Schema.Types.ObjectId, ref: 'Enrollment' },
+  enrollment: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Enrollment' }],
   instructor: { type: mongoose.Schema.Types.ObjectId, ref: 'Instructor' },
   admin: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
   instructorShare: Number,

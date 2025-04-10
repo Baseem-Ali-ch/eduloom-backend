@@ -14,10 +14,9 @@ export class EmailService implements IEmailService {
         pass: process.env.EMAIL_PASSWORD,
       },
       tls: {
-        rejectUnauthorized: false, // Less strict about certificates
+        rejectUnauthorized: false,
       },
-      // Increased timeouts
-      connectionTimeout: 30000, // 30 seconds
+      connectionTimeout: 30000,
       greetingTimeout: 30000,
       socketTimeout: 60000
     });
