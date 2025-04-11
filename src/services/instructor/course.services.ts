@@ -221,10 +221,14 @@ export class instructorCourseService {
     const course = await this._courseRepository.findById(courseId);
     if (!course) throw new Error('Course not found');
 
+    const maxEnrolledCount = 5
     const isAlreadyEnrolled = course.enrolledStudents?.some((student: EnrollesStudents) => student.studentId === studentId);
     if (isAlreadyEnrolled) {
+      if(course.enrolledStudents === maxEnrolledCount)
+
       throw new Error('Student is already enrolled in this course');
     }
+
 
     console.log(studentId);
     const options = {
